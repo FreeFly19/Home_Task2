@@ -1,8 +1,9 @@
 
- public class second_task {
- public static void main(String[]args) {
-     for (int x = 0;x<8;x++){
-         System.out.println("i will adopt best practices");
-     }
- }
- }
+public class second_task {
+    public static void main(String[] args) {
+        final int COUNT = 8;
+        for (int x = 0; x < COUNT; x++) {
+            System.out.println("I will adopt best practices");
+        }
+    }
+}
